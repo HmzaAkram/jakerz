@@ -9,6 +9,7 @@ import Collectionpage from "../pages/collection/Collectionpage";
 import Singleproductpage from "../pages/product-details/Singleproductpage";
 import ErrorNotFound from "../components/ErrorNotFoundPage/ErrorNotFound";
 import ScrollToTop from "../components/ScrollToTop";
+import Collectionpage from '../pages/collection/collection.jsx';
 
 const AllRoutes = ({
   productItems,
