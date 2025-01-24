@@ -1,0 +1,100 @@
+.slider-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden; /* Prevents content overflow */
+  }
+  
+  .slider-container .box {
+    width: 100%; /* Ensure each slider item takes up 100% width */
+    flex: 0 0 100%; /* Prevents shrinking and ensures each item occupies full width */
+    display: flex;
+    gap: 2rem; /* Adjust spacing between content inside each slider item */
+  }
+  
+  .slick-track {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensures the slick track takes up full width */
+  }
+  
+  .slider h1 {
+    font-size: 2.7rem;
+  }
+  
+  .slider p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .slider ul {
+    position: absolute;
+    bottom: -30%;
+  }
+  
+  .slider ul li button {
+    background: transparent;
+    color: transparent;
+  }
+  
+  .slider ul li button::before {
+    font-size: 15px;
+    color: #0f3460;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    margin: auto;
+  }
+  
+  .slider .box img {
+    max-width: 100%; /* Makes sure images are responsive */
+    height: 100%; /* Ensures full height coverage for images */
+  }
+  
+  .img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media only screen and (max-width: 1440px) {
+    .slider-container {
+      gap: 2rem;
+    }
+  
+    .slider .box {
+      gap: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .slider-container {
+      flex-direction: column-reverse;
+      gap: 1rem;
+    }
+  
+    .slider h1 {
+      font-size: 1.3rem;
+    }
+  
+    .slider p {
+      font-size: 0.8rem;
+    }
+  
+    .slider ul {
+      position: absolute;
+      bottom: -5%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .slider-container .box {
+      flex-direction: column; /* Stack content on smaller screens */
+    }
+  
+    .control-btn .next,
+    .control-btn .prev {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
