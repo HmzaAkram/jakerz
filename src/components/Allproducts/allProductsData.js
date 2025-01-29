@@ -28,7 +28,7 @@ const allProductsData = {
       id: 4,
       discount: 40,
       img: "/assets/flash-deals/flash-4.png",
-      name: "Smart Watch Black",
+      name: "jaket4",
       price: 50,
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit, neque vitae egestas porta, eros neque vestibulum purus, at pretium nulla tellus sed mauris. Aliquam nec lacus non metus bibendum faucibus. Etiam vulputate leo nec ante consectetur, sed vulputate dui vestibulum. Quisque porta augue sapien, et lobortis odio molestie mattis. Aliquam erat volutpat. Morbi semper lacus et augue aliquam pretium. Sed interdum risus eu sem gravida malesuada. Suspendisse efficitur elementum ex, sed varius tortor auctor eu. Ut interdum posuere lacus, sed tristique erat blandit et. Nulla ac odio ullamcorper, vestibulum urna sed, tristique turpis. Pellentesque maximus porttitor molestie. Nunc consequat.",
     },
