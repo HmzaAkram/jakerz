@@ -10,7 +10,7 @@ const flashDealsData = {
     {
       id: 2,
       discount: 40,
-      img: "./assets/flash-deals/flash-2.png",
+      img: "./assets/flash-deals/flash-2.jpg",
       name: "Jaket",
       price: 20,
     },
