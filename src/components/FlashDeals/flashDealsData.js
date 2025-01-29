@@ -18,7 +18,7 @@ const flashDealsData = {
       id: 3,
       discount: 40,
       img: "./assets/flash-deals/flash-3.png",
-      name: "Smart Mobile Black",
+      name: "jaket",
       price: 200,
     },
     {
